@@ -10,8 +10,13 @@
 #' @param bike_type ???
 #'
 #' @return Trip Speed based on age, sex and bike_type
+#' @examples
+#' trip_speed("16.59","Male", 0)
+#' 
 #' @export
 trip_speed <- function(age, sex, bike_type)  {
+
+  if(!(sex %in% c("Male","Female"))) stop("Value for sex must be 'Male' or 'Female'.")
   
   speed = 0
   # If bike_type is pedal bike
@@ -43,7 +48,7 @@ trip_speed <- function(age, sex, bike_type)  {
 #' @param dist ???
 #' @param tripsebike ???
 #'
-#' @return
+#' @return ???
 #' @export
 bikechoice <-function(dist, tripsebike) { 
   #calculates prob of switch to cycling depending on: [age-sex-trip distance]
