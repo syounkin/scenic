@@ -22,4 +22,8 @@ Calculates speed of a cycling trip, based on following parameters:
 2. gender: Male or Female
 3. bike_type: A boolean variable whether it's a pedal bike (0) or an ebike (1)
 }
+\examples{
+trip_speed("16.59","Male", 0)
+
+}
 

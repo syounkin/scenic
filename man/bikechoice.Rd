@@ -11,6 +11,9 @@ bikechoice(dist, tripsebike)
 
 \item{tripsebike}{???}
 }
+\value{
+???
+}
 \description{
 Bike Choice
 }

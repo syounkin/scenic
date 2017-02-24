@@ -13,6 +13,8 @@ information, documentation and examples.
 }
 \examples{
 
+trip_speed("16.59","Male", 0)
+
 }
 \author{
 Ali Abbas \email{m.ali.abbas@gmal.com}
