@@ -5,15 +5,12 @@
 #' 2. gender: Male or Female
 #' 3. bike_type: A boolean variable whether it's a pedal bike (0) or an ebike (1)
 #' 
+#' @param age ???
+#' @param sex ???
+#' @param bike_type ???
 #'
-#' @param baseline Baseline Travel Survey Dataframe
-#' @param DP Direct probability of potential cyclists
-#' @param ebikes Boolean variable for ebikes
-#' @param equity Boolean variable for equity (between men and women)
-#' @param pcycl_baseline Cycling probability broken down by age and gender groups
 #' @return Trip Speed based on age, sex and bike_type
 #' @export
-
 trip_speed <- function(age, sex, bike_type)  {
   
   speed = 0
@@ -41,9 +38,13 @@ trip_speed <- function(age, sex, bike_type)  {
   
   speed
 }
-
-
-
+#' Bike Choice
+#'
+#' @param dist ???
+#' @param tripsebike ???
+#'
+#' @return
+#' @export
 bikechoice <-function(dist, tripsebike) { 
   #calculates prob of switch to cycling depending on: [age-sex-trip distance]
   

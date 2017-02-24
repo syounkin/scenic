@@ -7,15 +7,11 @@
 trip_speed(age, sex, bike_type)
 }
 \arguments{
-\item{baseline}{Baseline Travel Survey Dataframe}
+\item{age}{???}
 
-\item{DP}{Direct probability of potential cyclists}
+\item{sex}{???}
 
-\item{ebikes}{Boolean variable for ebikes}
-
-\item{equity}{Boolean variable for equity (between men and women)}
-
-\item{pcycl_baseline}{Cycling probability broken down by age and gender groups}
+\item{bike_type}{???}
 }
 \value{
 Trip Speed based on age, sex and bike_type
